@@ -1,4 +1,0 @@
-interface:
-  display_name: "社群留言靈感庫"
-  short_description: "為 IG 與 Threads 貼文生成自然有梗的繁中留言"
-  default_prompt: "Use $social-comment-writer to create natural Taiwanese Traditional Chinese replies for this social post."
