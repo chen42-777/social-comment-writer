@@ -1,11 +1,11 @@
 ---
 name: social-comment-writer
-description: Create natural, funny Taiwanese Traditional Chinese social-media comments from Instagram or Threads screenshots, captions, or post descriptions. Use when asked to write comments, replies, witty reactions, low-punctuation social copy, or tasteful event-link promotion for a social post.
+description: Create natural, funny Taiwanese Traditional Chinese social-media comments and relevant hashtags from Instagram or Threads screenshots, captions, or post descriptions. Use when asked to write comments, replies, witty reactions, low-punctuation social copy, tasteful event-link promotion, or hashtags for a social post.
 ---
 
 # Social Comment Writer
 
-Create comments that sound like a real Taiwanese social-media user, not marketing copy.
+Create comments and hashtags that sound like a real Taiwanese social-media user, not marketing copy.
 
 ## Workflow
 
@@ -27,8 +27,17 @@ Create comments that sound like a real Taiwanese social-media user, not marketin
 
 When the user supplies an activity or event URL, include it verbatim in at most two replies, and only when the post context makes promotion feel natural. Do not force promotion or rewrite the URL.
 
+## Hashtags
+
+Always add a separate `適合使用的 hashtag` section after the replies, unless the user explicitly asks not to. Give 5–10 copy-ready hashtags that match the post's subject, tone, place, activity, or community.
+
+- Prefer specific, usable Traditional Chinese hashtags; include an English hashtag only when it is commonly used or clearly relevant.
+- Do not invent campaign names, brands, locations, or facts not present in the post.
+- Keep the list suitable for quoting or reposting; avoid generic filler such as `#熱門` or `#分享` unless genuinely relevant.
+- Do not attach hashtags to every generated comment.
+
 ## Output
 
-Start with a one-sentence reading of the post only when helpful. Then give numbered, individually copyable replies. Label any reply that includes an event link as `活動連結`.
+Start with a one-sentence reading of the post only when helpful. Then give numbered, individually copyable replies, followed by `適合使用的 hashtag` on its own line. Label any reply that includes an event link as `含活動連結`.
 
-Example input: 「幫我替這張 Threads 截圖寫 6 則有梗留言，活動連結是 https://example.com」
+Example input: 幫我替這張 Threads 貼文寫 6 則有梗留言，標點少一點，活動連結是 https://example.com
